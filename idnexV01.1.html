@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueleto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+        border: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+    div#s3{
+        width: auto;
+        height: 100vh;
+        border: 2px solid yellow;
+        color: yellow;
+        -webkit-text-stroke: 1px black;
+    }
+
+    div#s5{
+        width: auto;
+        height: 100vh;
+        border: 2px solid green;
+        color: green;
+        -webkit-text-stroke: 1px black;
+    }
+    div#s6{
+        width: auto;
+        height: 100vh;
+        border: 2px solid navy;
+        color: navy;
+        -webkit-text-stroke: 1px black;
+    }
+
+    ul{
+        margin: 0 50px 0 50px;
+        width: auto;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    li{
+        position: relative;
+        /* background-color: blue; */
+        margin-bottom: 80px;
+        height: 401px;
+        width: 292px;
+    }
+
+
+    section#s4{
+        background-color: #F9F8FE;
+    }
+
+
+
+    div#boxVerde{
+        
+        top: 20px ;
+        right: 176px;
+        bottom: 269px;
+        left: 20px ;    
+        padding: 5px 15px 5px 15px ;
+        width: 96px;
+        height: 32px;
+        position: absolute;
+        background-color: #E7FF86;
+        border-radius: 29px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        letter-spacing:0.75px;
+        color: #474747 ;
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+
+    span#container-cabeçalho-s04{
+        color: #474747;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-left: 20px;
+        line-height: 38px;
+        font-size: 24px;
+    } 
+
+    div#alta{
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.75px;
+        color: #474747;
+    }
+
+    div#ver{
+        color: #C92071;
+        line-height: 34px;
+        font-size: 18px;
+        letter-spacing:0.75px;
+        margin-bottom: 22px;
+    }
+
+
+
+    div#imagem-kswiss{
+        border-radius: 4px;
+        background-color: white;
+        height:321px;
+        width:292px;
+        box-shadow: 6px 16px 30px hsla(0, 3%, 40%, 5%) ;
+    }
+
+    img#tenis-pos{
+        margin-left: -10px ;
+        margin-top: 39px;
+        margin-right: 20.23px;
+        margin-bottom: 41.95px;
+    }
+
+    div#info{
+        /* border: 2px solid green; */
+        margin-top: 18px;
+        text-align: justify;
+        height: 100px;
+        line-height: 24px;
+    }
+
+    span#textTenis-kswiss{
+        line-height: 24px;
+        font-size: 12px; 
+        letter-spacing: 0.75px;
+        color: #8F8F8F;
+    }
+
+    span#produto-kswiss{
+        line-height: 38px;
+        font-size: 24px;
+        letter-spacing: 0.75px;
+        color: #474747;
+    }
+
+
+    span#a200{
+        line-height: 38px;
+        font-size: 24px; 
+        letter-spacing: 0.75px;
+        color:#8F8F8F;
+        text-decoration: line-through;
+    }
+
+    span#a100{
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.75px;
+    }
+
+    div a{
+        color: inherit;
+    }
+
+
+
+
+
+</style>
+<body>
+    <div id="s1">
+        <header>
+            <section>
+                <div>
+                    <img src="assets/Vector.svg" alt="Logo">
+                    <h2>Digital Store</h2>
+                </div>
+                <div>
+                    <input type="text" id="meu-input">
+                    <span>Pesquisar produto...</span>
+                    <img src="assets/Iconly/Light/Search.svg" alt="">
+                </div>
+                <div>
+                    <a href="#!">Cadastre-se</a>
+                    <button>Entrar</button>
+                </div>
+                <div>
+                    <a href="#!">
+                        <img src="assets/Iconly/Light/Buy.svg" alt="">
+                        <span>2</span>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <a href="#!">Home</a>
+                <a href="#!">Produtos</a>
+                <a href="#!">Categorias</a>
+                <a href="#!">Meus pedidos</a>
+            </section>
+        </header>
+        <main>
+            <section class="regioes-principais">
+                <section id="primeira-regiao">
+                    <section>
+                        <h4>Melhores ofertas personalizadas</h4>
+                        <h1>Queima de Estoque Nike&#x1F525;
+                        </h1>
+                        <p>Consequat culpa exercitation mollit nisi excepteur do <br> do tempor laboris eiusmod irure consectetur.</p>
+                        <section>
+                            <button>
+                                Ver Ofertas
+                            </button>
+                        </section>
+                    </section>
+                </section>
+                <section id="segunda-regiao">
+                    <div>
+                        <img src="assets/White-Sneakers-PNG-Clipart 1.svg" alt="Sneakers">
+                    </div>
+                    <div class="circle">
+                        <img src="assets/Ornament 11.svg" alt="Ornament">
+                    </div>
+                </section>
+            </section>
+            <section class="bolinhas">
+                <span id="menu">
+                    <div id="bolinha"></div>
+                    <div id="bolinha"></div>
+                    <div id="bolinha"></div>
+                    <div id="bolinha"></div>
+                </span>
+            </section>
+        </main>
+    </div>
+    <div id="s2">
+        <h1>SESSAO 02</h1>
+    </div>
+    <div id="s3">
+        <h1>SESSAO 03</h1>
+    </div>
+    <section id="s4">
+        <h1>SESSAO 04</h1>
+        <span id="container-cabeçalho-s04">
+            <div id="alta">
+                <p><strong>Produtos em Alta</strong></p>
+            </div>
+            <div id="ver">
+                <a href="!#">
+                    <p>Ver todos <img src="img/Line.png" alt=""></p>
+                </a>
+            </div>
+        </span>
+        <ul>
+        <li id="card">
+            <div id="boxVerde"><strong>30% OFF</strong></div>
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+        </li>  
+        <li id="card">
+            <div id="boxVerde"><strong>30% OFF</strong></div>
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+        </li>  
+        <li id="card">
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+        </li>  
+        <li id="card">
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+        </li>  
+        <li id="card">
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+        </li>  
+        <li id="card">
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+        </li>  
+        <li id="card">
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+        </li>  
+        <li id="card">
+            <div id="imagem-kswiss"><img src="img/Layer 1aa 2.png" alt="" id="tenis-pos"></div>
+            <div id="info"><span id="textTenis-kswiss"><strong>Tênis</strong></span> </br> 
+            <span id="produto-kswiss">K-Swiss V8 - Masculino</span> </br>
+            <span id="a200">$200</span> <span id="a100"><strong> $100</strong></span>
+        </div>
+    </section>
+    <div id="s5">
+        <h1>SESSAO 05</h1>
+    </div>
+    <div id="s6">
+        <h1>SESSAO 06</h1>
+    </div>
+</body>
+</html>
