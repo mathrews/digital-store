@@ -14,11 +14,9 @@ header{
     padding: 34px 120px;
     height: auto;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 header section:first-child{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +42,12 @@ header section:first-child div:nth-child(2){
 header section:first-child div:nth-child(2) input{
     position: relative;
     background-color: #F8F8F8;
-    width: 559px;
+    width: 600px;
     height: 60px;
     border-radius: 8px;
     padding-left: 24px;
     font-size: 16px;
+    flex: 1;
 }
 
 header section:first-child div:nth-child(2) span{
@@ -69,8 +68,6 @@ header section:first-child div:nth-child(2) img{
     transform: translateY(-50%);
     color: #80808090;
     pointer-events: none;
-    font-weight: 100;
-    font-size: 18px;
 }
 
 header section:first-child div:nth-child(2) input:focus{
@@ -145,7 +142,6 @@ header nav a:first-child{
     color: #C92071;
     font-weight: bold;
     position: relative;
-    transition-duration: 300ms;
 }
 
 header nav a::after{
@@ -170,12 +166,17 @@ header nav a:first-child::after{
     height: 2px;
     border-radius: 2px;
     background-color: #C92071;
-    visibility: visible;
+    visibility: hidden;
 }
 
 header nav a:hover{
     color: #C92071;
     font-weight: bold;
+}
+
+header nav a:first-child:hover:after{
+    visibility: hidden;
+    width: 0%;
 }
 
 header nav a:hover::after{
@@ -289,10 +290,21 @@ main .bolinhas #bolinha:hover{
     opacity: 0.7;
 }
 
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 1386px){
     header{
-        padding: 34px 70px;
+        padding: 34px 104px;
         height: 25vh;
+    }
+    header section:first-child{
+        display: flex;
+        gap: 18px;
+    }
+    header section:first-child div:nth-child(2){
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        gap: 48px;
     }
     main{
         padding: 0 70px 0 70px;
@@ -336,13 +348,30 @@ main .bolinhas #bolinha:hover{
     }
     main section:nth-child(2){
         padding-bottom: 53px;
+    }
+    #s4 #card #boxVerde strong{
+        font-size: 13px;
     }
 }
 
 @media screen and (max-width: 2116px){
     header{
-        padding: 34px 70px;
-        height: 25vh;
+        padding: 34px 104px;
+        height: 26vh;
+    }
+    header section:first-child{
+        display: flex;
+        gap: 18px;
+    }
+    header section:first-child div:nth-child(2){
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        gap: 48px;
+    }
+    header nav{
+        margin-top: 12px;
     }
     main{
         padding: 0 70px 0 70px;
@@ -387,5 +416,6 @@ main .bolinhas #bolinha:hover{
     main section:nth-child(2){
         padding-bottom: 53px;
     }
+
 }
 
