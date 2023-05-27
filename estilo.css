@@ -128,27 +128,27 @@ header section:first-child div:nth-child(4) a span{
     font-weight: bold;
 }
 
-header section:nth-child(2){
+header nav{
     display: flex;
     padding-top: 2%;
     gap: 32px;
     position: relative;
 }
 
-header section:nth-child(2) a{
+header nav a{
     color: #474747;
     transition-duration: 300ms;
     position: relative;
 }
 
-header section:nth-child(2) a:first-child{
+header nav a:first-child{
     color: #C92071;
     font-weight: bold;
     position: relative;
     transition-duration: 300ms;
 }
 
-header section:nth-child(2) a::after{
+header nav a::after{
     content: "";
     top: calc(100% + 4px);
     left: 0;
@@ -161,7 +161,7 @@ header section:nth-child(2) a::after{
     transition-duration: 300ms;
 }
 
-header section:nth-child(2) a:first-child::after{
+header nav a:first-child::after{
     content: "";
     top: calc(100% + 4px);
     left: 0;
@@ -173,12 +173,12 @@ header section:nth-child(2) a:first-child::after{
     visibility: visible;
 }
 
-header section:nth-child(2) a:hover{
+header nav a:hover{
     color: #C92071;
     font-weight: bold;
 }
 
-header section:nth-child(2) a:hover::after{
+header nav a:hover::after{
     visibility: visible;
     width: 100%;
 }
