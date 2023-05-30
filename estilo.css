@@ -292,7 +292,7 @@ main .bolinhas #bolinha:hover{
 
 @media screen and (max-width: 1386px){
     header{
-        padding: 34px 104px;
+        padding: 34px 100px;
         height: 25vh;
     }
     header section:first-child{
@@ -307,7 +307,7 @@ main .bolinhas #bolinha:hover{
         gap: 48px;
     }
     main{
-        padding: 0 70px 0 70px;
+        padding: 34px 100px;
         height: 100%;
     }
     main .regioes-principais{
@@ -331,7 +331,7 @@ main .bolinhas #bolinha:hover{
         margin-left: 20px;
     }
     main .regioes-principais #segunda-regiao div:first-child img{
-        width: 260%;
+        width: 240%;
         height: 100%;
     }
     main .regioes-principais #segunda-regiao .circle{
@@ -356,7 +356,7 @@ main .bolinhas #bolinha:hover{
 
 @media screen and (max-width: 2116px){
     header{
-        padding: 34px 104px;
+        padding: 34px 100px;
         height: 26vh;
     }
     header section:first-child{
@@ -374,7 +374,7 @@ main .bolinhas #bolinha:hover{
         margin-top: 12px;
     }
     main{
-        padding: 0 70px 0 70px;
+        padding: 34px 100px;
         height: 100%;
     }
     main .regioes-principais{
@@ -398,7 +398,7 @@ main .bolinhas #bolinha:hover{
         margin-left: 20px;
     }
     main .regioes-principais #segunda-regiao div:first-child img{
-        width: 260%;
+        width: 240%;
         height: 100%;
     }
     main .regioes-principais #segunda-regiao .circle{
