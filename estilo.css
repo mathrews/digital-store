@@ -16,30 +16,30 @@ header{
     width: 100%;
 }
 
-header section:first-child{
+header section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-header section:first-child div:first-child{
+header section:first-child div:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6px;
 }
 
-header section:first-child div:first-child h2{
+header section:first-child div:nth-child(2) h2{
     font-size: 28px;
     color: #C92071;
 }
 
-header section:first-child div:nth-child(2){
+header section:first-child div:nth-child(3){
     position: relative;
 }
 
-header section:first-child div:nth-child(2) input{
+header section:first-child div:nth-child(3) input{
     position: relative;
     background-color: #F8F8F8;
     width: 600px;
@@ -50,7 +50,7 @@ header section:first-child div:nth-child(2) input{
     flex: 1;
 }
 
-header section:first-child div:nth-child(2) span{
+header section:first-child div:nth-child(3) span{
     position: absolute;
     top: 50%;
     left: 24px;
@@ -61,7 +61,7 @@ header section:first-child div:nth-child(2) span{
     font-size: 16px;
 }
 
-header section:first-child div:nth-child(2) img{
+header section:first-child div:nth-child(3) img{
     position: absolute;
     top: 50%;
     left: 92%;
@@ -70,28 +70,28 @@ header section:first-child div:nth-child(2) img{
     pointer-events: none;
 }
 
-header section:first-child div:nth-child(2) input:focus{
+header section:first-child div:nth-child(3) input:focus{
     outline: none;
     border: 2px solid #80808090;
 }
 
-header section:first-child div:nth-child(2) input:focus + span{
+header section:first-child div:nth-child(3) input:focus + span{
     display: none;
 }
 
-header section:first-child div:nth-child(3){
+header section:first-child div:nth-child(4){
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
 }
 
-header section:first-child div:nth-child(3) a{
+header section:first-child div:nth-child(4) a{
     color: #474747;
     border-bottom: 1px solid #474747;
 }
 
-header section:first-child div:nth-child(3) button{
+header section:first-child div:nth-child(4) button{
     height: 40px;
     width: 114px;
     border-radius: 8px;
@@ -102,15 +102,15 @@ header section:first-child div:nth-child(3) button{
     transition-duration: 300ms;
 }
 
-header section:first-child div:nth-child(3) button:hover{
+header section:first-child div:nth-child(4) button:hover{
     filter: brightness(0.8);
 }
 
-header section:first-child div:nth-child(4){
+header section:first-child div:nth-child(5){
     position: relative;
 }
 
-header section:first-child div:nth-child(4) a span{
+header section:first-child div:nth-child(5) a span{
     top: calc(0% - 10px);
     left: calc(100% - 8px);
     height: 18px;
@@ -299,7 +299,7 @@ main .bolinhas #bolinha:hover{
         display: flex;
         gap: 18px;
     }
-    header section:first-child div:nth-child(2){
+    header section:first-child div:nth-child(3){
         flex: 1;
         height: 100%;
         width: 100%;
@@ -363,7 +363,7 @@ main .bolinhas #bolinha:hover{
         display: flex;
         gap: 18px;
     }
-    header section:first-child div:nth-child(2){
+    header section:first-child div:nth-child(3){
         flex: 1;
         height: 100%;
         width: 100%;
