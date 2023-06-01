@@ -13,17 +13,28 @@
     .menu{
         display: none;
     }
+    #s1 header section div:nth-child(5){
+        display: none;
+    }
 }
 @media screen and (max-width: 500px){
     #s1 header{
         width: 100%;
         height: 14vh;
-        padding: 5% 10%;
+        padding: 5% 5%;
     }
     #s1 header section{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        gap: 18px;
+        flex: 1;
+    }
+    #s1 header section div:nth-child(2){
+        margin-left: 18%;
+    }
+    #s1 header section .search-cell{
+        opacity: 0.4;
     }
     #s1 header section button{
         background-color: #FFFFFF;
@@ -35,11 +46,9 @@
         display: none;
     }
     #s1 header section div:nth-child(3) input,
-    #s1 header section div:nth-child(3) span{
-        display: none;
-    }
+    #s1 header section div:nth-child(3) span,
     #s1 header section div:nth-child(3) img{
-        opacity: 0.4;
+        display: none;
     }
     #s1 header section div:nth-child(4){
         display: none;
