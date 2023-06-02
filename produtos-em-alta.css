@@ -1,4 +1,4 @@
-ul{
+#s4 ul{
     margin: 0 50px 0 50px;
     width: auto;
     display: flex;
@@ -7,7 +7,7 @@ ul{
     /* align-items: center; */
 }
 
-li{
+#s4 li{
     position: relative;
     /* background-color: blue; */
     margin-bottom: 80px;
