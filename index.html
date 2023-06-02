@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/Vector.svg" type="image/x-icon">
     <title>Digital Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="secao-5.css">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="produtos-em-alta.css">
 </head>
 <style>
     *{
@@ -17,7 +20,7 @@
         list-style: none;
         text-decoration: none;
         box-sizing: border-box;
-        /* font-family: 'Inter', sans-serif; */
+        font-family: 'Inter', sans-serif;
     }
     div#s3{
         width: auto;
@@ -26,156 +29,8 @@
         color: yellow;
         -webkit-text-stroke: 1px black;
     }
-    div#s6{
-        width: auto;
-        height: 100vh;
-        border: 2px solid navy;
-        color: navy;
-        -webkit-text-stroke: 1px black;
-    }
-
-    ul{
-        margin: 0 50px 0 50px;
-        width: auto;
-        display: flex;
-        flex-wrap:wrap;
-        justify-content: space-between;
-        /* align-items: center; */
-    }
-
-    li{
-        position: relative;
-        /* background-color: blue; */
-        margin-bottom: 80px;
-        height: 401px;
-        width: 292px;
-    }
-
-
-    section#s4{
-        background-color: #F9F8FE;
-    }
-
-
-
-    div#boxVerde{
-        top: 20px ;
-        right: 176px;
-        bottom: 269px;
-        left: 20px ;    
-        padding: 5px 15px 5px 15px ;
-        width: 96px;
-        height: 32px;
-        position: absolute;
-        background-color: #E7FF86;
-        border-radius: 29px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        letter-spacing:0.75px;
-        color: #474747 ;
-        line-height: 22px;
-        font-size: 14px;
-    }
-
-
-    span#container-cabeçalho-s04{
-        color: #474747;
-        width: auto;
-        display: flex;
-        justify-content: space-between;
-        padding-right: 20px;
-        padding-left: 20px;
-        line-height: 38px;
-        font-size: 24px;
-    } 
-
-    div#alta{
-        font-size: 24px;
-        line-height: 38px;
-        letter-spacing: 0.75px;
-        color: #474747;
-    }
-
-    div#ver{
-        color: #C92071;
-        line-height: 34px;
-        font-size: 18px;
-        letter-spacing:0.75px;
-        margin-bottom: 22px;
-    }
-
-    div#imagem-kswiss{
-        border-radius: 4px;
-        background-color: white;
-        height:321px;
-        width:292px;
-        box-shadow: 6px 16px 30px hsla(0, 3%, 40%, 5%);
-        overflow: hidden; 
-        -moz-transition: all 0.3s;
-        -webkit-transition: all 0.3s;
-        cursor: pointer;
-    }
-
-    img#tenis-pos{
-        margin-left: -16px;
-        margin-top: 39px;
-        margin-right: 20.23px;
-        margin-bottom: 41.95px;
-        transition-duration: 300ms;
-    }
-
-    #imagem-kswiss:hover #tenis-pos{
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    }
-
-    div#info{
-        /* border: 2px solid green; */
-        margin-top: 18px;
-        text-align: justify;
-        height: 100px;
-        line-height: 24px;
-    }
-
-    span#textTenis-kswiss{
-        line-height: 24px;
-        font-size: 12px; 
-        letter-spacing: 0.75px;
-        color: #8F8F8F;
-    }
-
-    span#produto-kswiss{
-        line-height: 38px;
-        font-size: 24px;
-        letter-spacing: 0.75px;
-        color: #474747;
-    }
-
-    span#a200{
-        line-height: 38px;
-        font-size: 24px; 
-        letter-spacing: 0.75px;
-        color:#8F8F8F;
-        text-decoration: line-through;
-    }
-
-    span#a100{
-        font-size: 24px;
-        line-height: 38px;
-        letter-spacing: 0.75px;
-    }
-
-    div a{
-        color: inherit;
-    }
-
-    #s4 #card #boxVerde strong{
-        font-size: 13px;
-    }
 </style>
-<body>
+<body id="corpo">
     <div id="s1">
         <header>
             <section>
@@ -244,7 +99,6 @@
         <h1>SESSAO 03</h1>
     </div>
     <section id="s4">
-        <h1>SESSAO 04</h1>
         <span id="container-cabeçalho-s04">
             <div id="alta">
                 <p><strong>Produtos em Alta</strong></p>
@@ -331,7 +185,65 @@
         </main>
     </div>
     <div id="s6">
-        <h1>SESSAO 06</h1>
+        <footer>
+            <section>
+                <div class="inicio-footer">
+                    <div class="logo-footer">
+                        <img src="assets/Vector (1).svg" alt="logo">
+                        <h1>Digital Colege</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quod voluptatem ipsam itaque?</p>
+                    <ul id="midias">
+                        <li><a href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li> <a href="#!"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><h5>Informação</h5></li>
+                        <li><a href="#!">Sobre Drip Store</a></li>
+                        <li><a href="#!">Segurança</a></li>
+                        <li><a href="#!">Wishlist</a></li>
+                        <li><a href="#!">Blog</a></li>
+                        <li><a href="#!">Trabalhe conosco</a></li>
+                        <li><a href="#!">Meus Pedidos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><h5>Categorias</h5></li>
+                        <li><a href="#!">Camisetas</a></li>
+                        <li><a href="#!">Calças</a></li>
+                        <li><a href="#!">Bonés</a></li>
+                        <li><a href="#!">Headphones</a></li>
+                        <li><a href="#!">Tênis</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><h5>Categorias</h5></li>
+                        <li><a href="#!">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</a></li>
+                        <li><a href="#!">(85) 3051-3411</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section><h6>&copy; 2023 Todos os direitos reservados</h6></section>
+        </footer>
+        <div class="voltar">
+            <i class="fa fa-arrow-up"></i>
+        </div>
     </div>
+    <script>
+        let voltar = document.querySelector(".voltar")
+        corpo.onscroll = () => {
+            let rolagem = window.pageYOffset;
+            if(rolagem > 400){
+                voltar.classList.add('active')
+            }else{
+                voltar.classList.remove('active')
+            }
+        }
+    </script>
 </body>
 </html>
