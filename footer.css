@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+#s6 footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 34px 100px;
+    background-color: #1F1F1F;
+}
+
+#s6 h1, p, a, i, h5, li, h6{
+    color: #FFFFFF;
+}
+
+#s6 footer section:first-child{
+    display: flex;
+    border-bottom: 1px solid #FFFFFF30;
+    /* border: 1px solid red; */
+}
+
+#s6 footer section:first-child div{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    border: 1px solid red;
+}
+
+#s6 footer section:first-child .inicio-footer{
+    display: block;
+}
+
+#s6 footer section:first-child .logo-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#s6 footer section:first-child .logo-footer h1{
+    line-height: 44px;
+    font-size: 36px;
+}
+
+#s6 footer section:first-child p{
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#s6 footer section:first-child #midias{
+    display: flex;
+    gap: 16px;
+}
+
+#s6 footer section:first-child #midias li{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition-duration: 300ms;
+}
+
+
+.voltar{
+    width: 50px;
+    height: 50px;
+    background-color: #C92071;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 300ms;
+}
+
+.voltar i{
+    color: #FFFFFF;
+}
+
+.voltar.active{
+    opacity: 1;
+    visibility: visible;
+}
