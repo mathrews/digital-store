@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="secao-5.css">
-    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="produtos-em-alta.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <style>
     *{
@@ -230,7 +230,7 @@
             </section>
             <section><h6>&copy; 2023 Todos os direitos reservados</h6></section>
         </footer>
-        <div class="voltar">
+        <div onclick="scrollToTop()" class="voltar">
             <i class="fa fa-arrow-up"></i>
         </div>
     </div>
@@ -243,6 +243,12 @@
             }else{
                 voltar.classList.remove('active')
             }
+        }
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // adiciona um efeito de rolagem suave
+            });
         }
     </script>
 </body>
