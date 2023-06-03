@@ -91,6 +91,10 @@
     background-color: #FFFFFF30;
 }
 
+#s6 footer section:first-child #midias li:hover i{
+    color: #C92071;
+}
+
 #s6 footer section:first-child div ul li h5{
     padding-bottom: 16px;
     font-size: 18px;
@@ -102,6 +106,7 @@
     line-height: 36px;
     font-weight: 400;
     font-size: 16px;
+    width: 100%;
 }
 
 #s6 footer section:first-child div:nth-child(4) ul li{
