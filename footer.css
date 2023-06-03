@@ -21,7 +21,7 @@
     background-color: #1F1F1F;
 }
 
-#s6 h1, p, a, i, h5, li, h6{
+#s6 h1, #s6 p, #s6 a, #s6 i,  h5, #s6 li, #s6 h6{
     color: #FFFFFF;
 }
 
