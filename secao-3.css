@@ -88,8 +88,8 @@
 }
 
 #s3 #container-1 ul li .conteudo-text button:hover{
-    transform: skewX(8deg);
-    filter: brightness(0.9);
+    background-color: #B5B6F2;
+    color: #FFFFFF;
 } 
 
 #s3 #container-1 ul li .imagem{
