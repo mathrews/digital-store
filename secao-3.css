@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+#s3{
+    width: 100%;
+    height: 120vh;
+    background-color: #E5E5E550;
+    padding: 34px 100px;
+    position: relative;
+}
+
+#s3 #container-1 h2,
+#s3 #container-2 h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+#s3 #container-1 ul{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    gap: 12px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 20px;
+}
+
+#s3 #container-1 ul li{
+    flex: 1;
+    width: 100%;
+    border: 1px solid red;
+    background-color: #D8E3F2;
+    display: flex;
+    border-radius: 8px;
+    position: relative;
+    z-index: 0;
+}
+
+#s3 #container-1 ul li .conteudo-text{
+    position: absolute;
+    z-index: 2;
+    padding: 30px 34px;
+}
+
+#s3 #container-1 ul li .conteudo-text .preco-off{
+    width: 96px;
+    height: 32px;
+    position: relative;
+    background-color: #E7FF86;
+    border-radius: 29px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing:0.75px;
+    color: #474747 ;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+#s3 #container-1 ul li .conteudo-text h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+#s3 #container-1 ul li .conteudo-text button{
+    color: #C92071;
+    margin-top: 20px;
+    background-color: #F5F5F5;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+}
+
+#s3 #container-1 ul li .imagem{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#s3 #container-1 ul li .imagem img{
+    position: relative;
+    z-index: 1;
+}
+
+#s3 #container-2{
+    margin-top: 100px;
+}
+
+#s3 #container-2 h2{
+    display: flex;
+    justify-content: center;
+    line-height: 38px;
+}
+
+#s3 #container-2 ul{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+#s3 #container-2 ul li{
+    display: flex;
+    justify-content: center;
+}
+
+#s3 #container-2 ul li div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#s3 #container-2 ul li div .icones-dst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 92px;
+    height: 92px;
+}
+
+#s3 #container-2 ul li div .icones-dst img{
+    width: 50px;
+    height: 64px;
+}
+
+#s3 #container-2 ul li div div:nth-child(2){
+    margin-top: 12px;
+    display: flex;
+}
+
+#s3 #container-2 ul li div div:nth-child(2) p{
+    font-weight: bold;
+    display: flex;
+}

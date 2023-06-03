@@ -190,7 +190,7 @@ header nav a:hover::after{
 main{
     width: 100%;
     height: auto;
-    background-color: #F5F5F5;
+    background-color: #E5E5E570;
     padding: 0 120px;
     padding-bottom: 53px;
 }
