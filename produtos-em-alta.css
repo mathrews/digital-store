@@ -9,8 +9,12 @@
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
 }
+
+#s4{
+    padding: 34px 100px;
+}
+
 #s4 ul{
-    margin: 0 50px 0 50px;
     width: auto;
     display: flex;
     flex-wrap:wrap;
@@ -23,7 +27,7 @@
     /* background-color: blue; */
     margin-bottom: 80px;
     height: 401px;
-    width: 292px;
+    width: calc(25% - 16px);
 }
 
 
@@ -60,7 +64,6 @@ span#container-cabeçalho-s04{
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
-    padding-left: 20px;
     line-height: 38px;
     font-size: 24px;
 } 
@@ -83,13 +86,13 @@ div#ver{
 div#imagem-kswiss{
     border-radius: 4px;
     background-color: white;
-    height:321px;
-    width:292px;
+    height: 280px;
     box-shadow: 6px 16px 30px hsla(0, 3%, 40%, 5%);
     overflow: hidden; 
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     cursor: pointer;
+    width: 100%;
 }
 
 img#tenis-pos{
@@ -98,6 +101,7 @@ img#tenis-pos{
     margin-right: 20.23px;
     margin-bottom: 41.95px;
     transition-duration: 300ms;
+    width: 100%;
 }
 
 #imagem-kswiss:hover #tenis-pos{
