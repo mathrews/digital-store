@@ -238,6 +238,7 @@
         let voltar = document.querySelector(".voltar")
         corpo.onscroll = () => {
             let rolagem = window.pageYOffset;
+            console.log(rolagem);
             if(rolagem > 400){
                 voltar.classList.add('active')
             }else{
