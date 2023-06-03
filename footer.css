@@ -152,3 +152,7 @@
     opacity: 1;
     visibility: visible;
 }
+
+@media screen and (max-width: 1230px){
+    
+}
