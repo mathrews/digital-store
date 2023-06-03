@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/Vector.svg" type="image/x-icon">
     <title>Digital Store</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="secao-5.css">
     <link rel="stylesheet" href="produtos-em-alta.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <style>
     *{
@@ -26,15 +29,8 @@
         color: yellow;
         -webkit-text-stroke: 1px black;
     }
-    div#s6{
-        width: auto;
-        height: 100vh;
-        border: 2px solid navy;
-        color: navy;
-        -webkit-text-stroke: 1px black;
-    }
 </style>
-<body>
+<body id="corpo">
     <div id="s1">
         <header>
             <section>
@@ -173,10 +169,87 @@
         </div>
     </section>
     <div id="s5">
-        
+        <main>
+            <section>
+                <div>
+                    <img src="assets/Laye 1.svg" alt="tenis">
+                </div>
+            </section>
+            <section>
+                <h4>Oferta especial</h4>
+                <h1>Air Jordan edição de 
+                    colecionador</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                <div><button>Ver Oferta</button></div>
+            </section>
+        </main>
     </div>
     <div id="s6">
-        <h1>SESSAO 06</h1>
+        <footer>
+            <section>
+                <div class="inicio-footer">
+                    <div class="logo-footer">
+                        <img src="assets/Vector (1).svg" alt="logo">
+                        <h1>Digital Colege</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quod voluptatem ipsam itaque?</p>
+                    <ul id="midias">
+                        <li><a href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li> <a href="#!"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><h5>Informação</h5></li>
+                        <li><a href="#!">Sobre Drip Store</a></li>
+                        <li><a href="#!">Segurança</a></li>
+                        <li><a href="#!">Wishlist</a></li>
+                        <li><a href="#!">Blog</a></li>
+                        <li><a href="#!">Trabalhe conosco</a></li>
+                        <li><a href="#!">Meus Pedidos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><h5>Categorias</h5></li>
+                        <li><a href="#!">Camisetas</a></li>
+                        <li><a href="#!">Calças</a></li>
+                        <li><a href="#!">Bonés</a></li>
+                        <li><a href="#!">Headphones</a></li>
+                        <li><a href="#!">Tênis</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><h5>Categorias</h5></li>
+                        <li><a href="#!">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</a></li>
+                        <li><a href="#!">(85) 3051-3411</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section><h6>&copy; 2023 Todos os direitos reservados</h6></section>
+        </footer>
+        <div onclick="scrollToTop()" class="voltar">
+            <i class="fa fa-arrow-up"></i>
+        </div>
     </div>
+    <script>
+        let voltar = document.querySelector(".voltar")
+        corpo.onscroll = () => {
+            let rolagem = window.pageYOffset;
+            if(rolagem > 400){
+                voltar.classList.add('active')
+            }else{
+                voltar.classList.remove('active')
+            }
+        }
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // adiciona um efeito de rolagem suave
+            });
+        }
+    </script>
 </body>
 </html>
