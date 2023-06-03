@@ -63,7 +63,6 @@ span#container-cabeçalho-s04{
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding-right: 20px;
     line-height: 38px;
     font-size: 24px;
 } 
