@@ -1,166 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
-*{
-    margin:0;
-    padding: 0;
-    border: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Inter', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+/*
+    usar mais classes css para reutilização de estilos e manutenção do projeto
+
+*/
+
+* {
+  /*
+    esta aplicando esse mesmo estilo em todos os arquivos .css, acredito que nesse caso seja um estlio global para ser aplicado no body do html
+    toma cuidado com isso porque pode acontecer uma sobrescrita de estilos
+  */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
 }
 
-#s6 footer{
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 34px 100px;
-    background-color: #1F1F1F;
+/*
+    evitar utlização de IDs para estilizar uma tag HTML como também o seletor que aplica direto na tag
+*/
+
+#s6 footer {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 34px 100px;
+  background-color: #1f1f1f;
 }
 
-#s6 h1, #s6 p, #s6 a, #s6 i, #s6 h5, #s6 li, #s6 h6{
-    color: #FFFFFF;
+#s6 h1,
+#s6 p,
+#s6 a,
+#s6 i,
+#s6 h5,
+#s6 li,
+#s6 h6 {
+  color: #ffffff;
 }
 
-#s6 footer section:first-child{
-    display: flex;
-    border-bottom: 1px solid #FFFFFF30;
-    /* border: 1px solid red; */
+#s6 footer section:first-child {
+  display: flex;
+  border-bottom: 1px solid #ffffff30;
+  /* border: 1px solid red; */
 }
 
-#s6 footer section:first-child div{
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    /* border: 1px solid red; */
+#s6 footer section:first-child div {
+  /*
+
+    evitar aninhamento de seletores 
+*/
+
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  /* border: 1px solid red; */
 }
 
-#s6 footer section:first-child .inicio-footer{
-    display: block;
+#s6 footer section:first-child .inicio-footer {
+  display: block;
 }
 
-#s6 footer section:first-child .logo-footer{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-bottom: 35px;
-    gap: 8px;
+#s6 footer section:first-child .logo-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 35px;
+  gap: 8px;
 }
 
-#s6 footer section:first-child .logo-footer h1{
-    line-height: 44px;
-    font-size: 34px;
+#s6 footer section:first-child .logo-footer h1 {
+  line-height: 44px;
+  font-size: 34px;
 }
 
-#s6 footer section:first-child p{
-    margin-bottom: 36px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+#s6 footer section:first-child p {
+  margin-bottom: 36px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-#s6 footer section:first-child #midias{
-    display: flex;
-    gap: 16px;
+#s6 footer section:first-child #midias {
+  display: flex;
+  gap: 16px;
 }
 
-#s6 footer section:first-child #midias li{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: red; */
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    transition-duration: 300ms;
+#s6 footer section:first-child #midias li {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition-duration: 300ms;
 }
 
-#s6 footer section:first-child #midias li:first-child i{
-    margin-right: 1px;
+#s6 footer section:first-child #midias li:first-child i {
+  margin-right: 1px;
 }
 
-#s6 footer section:first-child #midias li:last-child i{
-    margin-left: 2px;
+#s6 footer section:first-child #midias li:last-child i {
+  margin-left: 2px;
 }
 
-#s6 footer section:first-child #midias li:hover{
-    background-color: #FFFFFF30;
+#s6 footer section:first-child #midias li:hover {
+  background-color: #ffffff30;
 }
 
-#s6 footer section:first-child #midias li:hover i{
-    color: #C92071;
+#s6 footer section:first-child #midias li:hover i {
+  color: #c92071;
 }
 
-#s6 footer section:first-child div ul li h5{
-    padding-bottom: 16px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
+#s6 footer section:first-child div ul li h5 {
+  padding-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
-#s6 footer section:first-child div ul li{
-    line-height: 36px;
-    font-weight: 400;
-    font-size: 16px;
+#s6 footer section:first-child div ul li {
+  line-height: 36px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-#s6 footer section:first-child div ul li a:hover{
-    color: #C92071;
+#s6 footer section:first-child div ul li a:hover {
+  color: #c92071;
 }
 
-#s6 footer section:first-child div:nth-child(4) ul li{
-    line-height: 26px;
+#s6 footer section:first-child div:nth-child(4) ul li {
+  line-height: 26px;
 }
 
-#s6 footer section:first-child div:nth-child(4) ul li:nth-child(3){
-    margin-top: 14px;
+#s6 footer section:first-child div:nth-child(4) ul li:nth-child(3) {
+  margin-top: 14px;
 }
 
-#s6 footer section:first-child{
-    padding-bottom: 34px;
+#s6 footer section:first-child {
+  padding-bottom: 34px;
 }
 
-#s6 footer section:nth-child(2){
-    margin-top: 22px;
+#s6 footer section:nth-child(2) {
+  margin-top: 22px;
 }
 
-#s6 footer section:nth-child(2) h6{
-    font-size: 13px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #FFFFFF90;
+#s6 footer section:nth-child(2) h6 {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff90;
 }
 
-.voltar{
-    width: 50px;
-    height: 50px;
-    background-color: #C92071;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    border-radius: 25px;
-    line-height: 50px;
-    text-align: center;
-    font-size: 24px;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition-duration: 300ms;
+.voltar {
+  width: 50px;
+  height: 50px;
+  background-color: #c92071;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 25px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition-duration: 300ms;
 }
 
-.voltar i{
-    color: #FFFFFF;
+.voltar i {
+  color: #ffffff;
 }
 
-.voltar.active{
-    opacity: 1;
-    visibility: visible;
+.voltar.active {
+  opacity: 1;
+  visibility: visible;
 }
 
-@media screen and ( max-width: 1400px){
-    
+@media screen and (max-width: 1400px) {
 }
