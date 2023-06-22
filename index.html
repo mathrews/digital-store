@@ -13,17 +13,11 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
-<style>
-    *{
-        margin:0;
-        padding: 0;
-        border: 0;
-        list-style: none;
-        text-decoration: none;
-        box-sizing: border-box;
-        font-family: 'Inter', sans-serif;
-    }
-</style>
+<!--  
+    deixar o html mais limpo,como exemplo evitar estilo inline dentro do html, ou tags styles como a tag abaixo, uma boa prática é separar em arquivos .css e importar dentro do html como foi feito acima
+
+-->
+
 <body id="corpo">
     <div id="s1">
         <header>
@@ -303,6 +297,7 @@
         </div>
     </div>
     <script>
+        // separar o arquivo em um arquivo separado e somente importar o script para dentro do html
         let voltar = document.querySelector(".voltar")
         corpo.onscroll = () => {
             let rolagem = window.pageYOffset;
